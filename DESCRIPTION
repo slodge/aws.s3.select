@@ -1,0 +1,17 @@
+Package: aws.s3.select
+Type: Package
+Title: Helps call and parse S3 Select from R
+Version: 0.0.1
+Author: Stuart Lodge <me@slodge.com>
+Maintainer: Stuart Lodge <me@slodge.com>
+Description: Helps call and parse S3 Select from R
+License: Unclear
+Encoding: UTF-8
+LazyData: true
+Imports:
+  aws.s3,
+  xml2,
+  readr,
+  jsonlite,
+  magrittr,
+  tibble
