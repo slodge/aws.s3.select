@@ -1,3 +1,6 @@
+# Code in this file is based on code from https://github.com/cloudyr/aws.s3/
+# All code in this file should be considered subject to GPL2 - see https://github.com/cloudyr/aws.s3/
+
 # not so simple pass through to aws.s3::select_object
 s3select <- function(request, bucket, object, headers = list()) {
   `%>%` <- magrittr::`%>%`
