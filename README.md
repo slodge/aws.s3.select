@@ -41,5 +41,11 @@ json <-
 
 ## Note
 
-This package is not intended as a long lived solution... I'm hopeful this can be merged back into aws.s3 somehow
+This package is not intended as a long lived solution... I'm hopeful this can be merged back into aws.s3 somehow...
+
+License of new code in this package is MS-PL. 
+
+However... 
+- Code in the s3select.R file is based on code from https://github.com/cloudyr/aws.s3/
+- As such, all code in that file should be considered subject to GPL2 - see https://github.com/cloudyr/aws.s3/
 

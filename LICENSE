@@ -1,0 +1,7 @@
+License of new code in this package is MS-PL - https://opensource.org/licenses/MS-PL
+
+However...
+- Code in the s3select.R file is based on code from https://github.com/cloudyr/aws.s3/
+- As such, all code in that file should be considered subject to GPL2 - see https://github.com/cloudyr/aws.s3/
+- https://opensource.org/licenses/GPL-2.0
+

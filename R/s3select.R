@@ -30,6 +30,7 @@ s3select <- function(request, bucket, object, headers = list()) {
     request_body = request_body,
     parse_response = FALSE)
 
+  # we have to use this because... ctype <- httr::headers(r)[["content-type"]] ... returns NULL
   detect_response_error(r)
 
   cont <- httr::content(r, as = "raw")

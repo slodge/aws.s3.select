@@ -8,7 +8,7 @@ csv_path <- "your csv"
 `%>%` <- magrittr::`%>%`
 
 request <-
-  s3selectRequest("SELECT * FROM s3Object s") %>%
+  s3selectRequest("SELECT * FROM s3Object s WHERE CAST(num_comments AS FLOAT)>1000") %>%
   csvInput(fileHeaderInfo = "USE") %>%
   csvOutput()
 
